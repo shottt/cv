@@ -8,12 +8,12 @@
 ### 言語
 JavaScript | PHP | Python | Node.js | TypeScript | HTML | CSS | Sass | Scss
 ### フレームワーク等
-Laravel | Vue.js | Nuxt.js | jQuery | Express.js
+Laravel | Vue.js（Ver2, 3） | Nuxt.js（Ver.3） | jQuery | Express.js
 ### DB
 MySql | Redis
 ### クラウド
 #### AWS
-IAM | AWS Organizations | VPC | EC2 | S3 | CloudFront | Beanstalk | ElastiCache（Redis) | CloudWatch | Route53 | ECS | KMS
+IAM | AWS Organizations | VPC | EC2 | S3 | CloudFormation | CloudFront | Beanstalk | ElastiCache（Redis) | CloudWatch | Route53 | ECS | KMS
 ### SaaS/Paas
 GitHub | BitBucket | Metabase | Google Analytics | WordPress
 ### その他
@@ -28,13 +28,31 @@ AWS SAA（2021年5月取得） | MOS Excel 2016 Expert（2021年2月取得）
 - Pythonを用いた業務効率化
 
 ## 主な業務経歴
-### BtoCの競馬メディアサービスの新規開発
-- docker-compose、Makefileを用いたローカル環境構築
-### BtoCの競馬メディアサービスの新規開発
+### BtoCのメディアサービスの新規開発
+- 技術スタック
+バックエンド：Laravel 9
+フロントエンド：Nuxt 3 + Vue 3 + TypeScript
+インフラ：AWS ECS
+- 担当業務
+  - docker-compose、Makefileを用いたローカル環境構築
+  - 開発環境構築（EC2 + Aurora）
+  - ステージング環境、本番環境構築（ECS）
+  - バックエンド開発
+  - フロントエンド開発
+### BtoCのメディアサービスの開発②
+- 技術スタック
+バックエンド：Laravel5.8
+フロントエンド：Vue.js 2系
+- 担当業務
+  - フロントエンド開発（コンポーネント設計/実装）
+  - バックエンド開発（バッチ処理、API設計/実装、テーブル設計）
+### BtoCのメディアサービスの開発①
+- 技術スタック
+バックエンド：Express.js
+フロントエンド：Vue.js 2系
+- 担当業務
+  - フロントエンド開発（コンポーネント設計、実装）
 ### インフラ
 - コスト最適化（前払い、リソース最適化）
-- Pythonによるコストレポートを自動化し、業務効率化
-- インフラ構築
-### BtoCの競馬メディアサービスの機能開発と改善
-
-
+- Pythonによるコストレポートの自動化
+- インフラのコード化（CloudFormation）
